@@ -14,7 +14,6 @@ export const Content = styled.div`
     height: 80%;
     width: 80%;
     display: flex;
-    align-items: center;
     animation: bruh 1s;
 
     @keyframes bruh {
@@ -31,13 +30,14 @@ export const Content = styled.div`
 export const Text = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
     
     h1{
-        padding-left: 6vw;
     }
 
     h3{
-        padding-left: 6vw;
+        padding-left: 50px;
+        padding-right: 50px;
         color: var(--lightGrey);
     }
 
