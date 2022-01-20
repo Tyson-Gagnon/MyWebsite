@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/MyWebsite/static/js/main.f143d957.js",
+    "static/media/dog.gif": "/MyWebsite/static/media/dog.c5b820190c900a0c2d5d.gif",
+    "static/media/me.jpg": "/MyWebsite/static/media/me.caf735a4ded28912d2c7.jpg",
+    "static/media/my-logo.png": "/MyWebsite/static/media/my-logo.8b06d8b47e7a8312a145.png",
+    "index.html": "/MyWebsite/index.html",
+    "main.f143d957.js.map": "/MyWebsite/static/js/main.f143d957.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f143d957.js"
+  ]
+}
