@@ -6,7 +6,7 @@ function Projects() {
     return (
         <Wrapper>
             <Content>
-                <Grid>
+                <Grid className="grid">
                 <Project
                 className="proj"
                     title="Calculator"

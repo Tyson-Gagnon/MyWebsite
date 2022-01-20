@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-	background: rgba(0, 0,255, 0.7);
 	display: flex;
     align-items: center;
     height: 30vh;
@@ -9,12 +8,15 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-	background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	background: rgba(050, 0, 100, 0.2);
     padding: 5px 0;
+    border: 3px solid rgba(255,255,255, 0.2);
 
     h1{
         color: white;
-        text-align: center;
     }
     p{
         color: white;
@@ -26,5 +28,10 @@ export const Content = styled.div`
         padding-top: 0;
         color: white;
         width: 100%;
+        opacity: .2;
+    }
+
+    a{  
+        color: white;
     }
 `;

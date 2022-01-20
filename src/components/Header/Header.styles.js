@@ -50,13 +50,12 @@ export const Button = styled.button`
     font-size: var(--fontBig);
     animation: fadeOut 0.5s ease-in-out;
     border-radius: 10px;
+    
 
     .Icon{
         color: var(--white);
         transform: scale(1.3) translateY(2px);
     }
-
-    
 
 
     :hover{
@@ -77,7 +76,7 @@ export const Button = styled.button`
 
         @keyframes fadeIn{
             0%{
-
+                content: "home";
             }
             50%{
                 border-left: 3px solid ;
@@ -127,4 +126,10 @@ export const Button = styled.button`
 
     
 
+`;
+
+export const Text = styled.p`
+
+color: var(--lightGrey);
+content: "";
 `;
